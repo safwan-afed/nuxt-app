@@ -99,14 +99,6 @@ Set in `.env`:
 5. Client redirects to `/admin`.
 6. `auth` middleware validates session via `GET /api/auth/me` on protected routes.
 
-### Keycloak client configuration
-
-In Keycloak client `nuxt-app`:
-
-- **Client authentication**: On
-- **Direct access grants**: On
-- **Valid post logout redirect URIs**: `http://localhost:3000/login`
-
 ---
 
 ## API Documentation
