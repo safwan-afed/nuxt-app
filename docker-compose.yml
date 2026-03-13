@@ -1,0 +1,27 @@
+services:
+  nuxt-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nuxt-app
+    env_file:
+      - .env
+    environment:
+      SESSION_SECRET: ${SESSION_SECRET}
+      KEYCLOAK_INTERNAL_URL: ${KEYCLOAK_INTERNAL_URL}
+      KEYCLOAK_PUBLIC_URL: ${KEYCLOAK_PUBLIC_URL}
+      KEYCLOAK_REALM: ${KEYCLOAK_REALM}
+      KEYCLOAK_CLIENT_ID: ${KEYCLOAK_CLIENT_ID}
+      KEYCLOAK_CLIENT_SECRET: ${KEYCLOAK_CLIENT_SECRET}
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    ports:
+      - "127.0.0.1:3000:3000"
+    networks:
+      - keycloak_network
+    restart: unless-stopped
+
+networks:
+  keycloak_network:
+    external: true

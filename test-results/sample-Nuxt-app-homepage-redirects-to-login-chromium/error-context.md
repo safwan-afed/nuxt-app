@@ -1,0 +1,116 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - heading "500" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Cannot find module '/app/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs' imported from /Users/safwanyacob/Documents/Afed/nuxt-app/.nuxt/dist/server/server.mjs
+  - status [ref=e6]
+  - iframe [ref=e7]:
+    - generic [ref=f1e2]:
+      - banner [ref=f1e3]:
+        - generic [ref=f1e5]:
+          - checkbox [ref=f1e6]
+          - generic "Light mode" [ref=f1e8] [cursor=pointer]:
+            - img [ref=f1e9]
+      - generic [ref=f1e13]:
+        - heading "Error" [level=4] [ref=f1e14]
+        - heading "An error has occurred" [level=1] [ref=f1e15]
+      - heading "Cannot find module '/app/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs' imported from /Users/safwanyacob/Documents/Afed/nuxt-app/.nuxt/dist/server/server.mjs Copy error with stack trace to clipboard" [level=2] [ref=f1e19]:
+        - img [ref=f1e21]
+        - generic [ref=f1e23]: Cannot find module '/app/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs' imported from /Users/safwanyacob/Documents/Afed/nuxt-app/.nuxt/dist/server/server.mjs
+        - button "Copy error with stack trace to clipboard" [ref=f1e24] [cursor=pointer]:
+          - img [ref=f1e25]
+      - generic [ref=f1e30]:
+        - heading "Stack Trace" [level=3] [ref=f1e33]
+        - generic [ref=f1e35]:
+          - generic [ref=f1e36]:
+            - generic [ref=f1e38]:
+              - checkbox "View All Frames" [ref=f1e39]
+              - generic [ref=f1e40]: View All Frames
+            - generic [ref=f1e42]:
+              - button "Pretty" [ref=f1e43]
+              - button "Raw" [ref=f1e44]
+          - generic:
+            - generic:
+              - list
+      - generic [ref=f1e46]:
+        - heading "Error Cause" [level=3] [ref=f1e49]
+        - code [ref=f1e54]:
+          - generic [ref=f1e55]:
+            - text: "Error {"
+            - button "▼" [ref=f1e56]:
+              - generic [ref=f1e57]: ▼
+            - text: "}"
+      - generic [ref=f1e59]:
+        - heading "Request" [level=3] [ref=f1e61]
+        - generic [ref=f1e62]:
+          - generic [ref=f1e63]:
+            - heading "url" [level=4] [ref=f1e64]
+            - text: http://localhost:3000/
+          - generic [ref=f1e65]:
+            - heading "method" [level=4] [ref=f1e66]
+            - text: GET
+          - generic [ref=f1e67]:
+            - heading "headers" [level=4] [ref=f1e68]
+            - table [ref=f1e69]:
+              - rowgroup [ref=f1e70]:
+                - row "host localhost:3000" [ref=f1e71]:
+                  - cell "host" [ref=f1e72]
+                  - cell "localhost:3000" [ref=f1e73]
+                - row "connection close" [ref=f1e74]:
+                  - cell "connection" [ref=f1e75]
+                  - cell "close" [ref=f1e76]
+                - row "sec-ch-ua \"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"" [ref=f1e77]:
+                  - cell "sec-ch-ua" [ref=f1e78]
+                  - cell "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"" [ref=f1e79]
+                - row "sec-ch-ua-mobile ?0" [ref=f1e80]:
+                  - cell "sec-ch-ua-mobile" [ref=f1e81]
+                  - cell "?0" [ref=f1e82]
+                - row "sec-ch-ua-platform \"Windows\"" [ref=f1e83]:
+                  - cell "sec-ch-ua-platform" [ref=f1e84]
+                  - cell "\"Windows\"" [ref=f1e85]
+                - row "upgrade-insecure-requests 1" [ref=f1e86]:
+                  - cell "upgrade-insecure-requests" [ref=f1e87]
+                  - cell "1" [ref=f1e88]
+                - row "user-agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36" [ref=f1e89]:
+                  - cell "user-agent" [ref=f1e90]
+                  - cell "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.6 Safari/537.36" [ref=f1e91]
+                - row "accept-language en-US" [ref=f1e92]:
+                  - cell "accept-language" [ref=f1e93]
+                  - cell "en-US" [ref=f1e94]
+                - row "accept text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" [ref=f1e95]:
+                  - cell "accept" [ref=f1e96]
+                  - cell "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" [ref=f1e97]
+                - row "sec-fetch-site none" [ref=f1e98]:
+                  - cell "sec-fetch-site" [ref=f1e99]
+                  - cell "none" [ref=f1e100]
+                - row "sec-fetch-mode navigate" [ref=f1e101]:
+                  - cell "sec-fetch-mode" [ref=f1e102]
+                  - cell "navigate" [ref=f1e103]
+                - row "sec-fetch-user ?1" [ref=f1e104]:
+                  - cell "sec-fetch-user" [ref=f1e105]
+                  - cell "?1" [ref=f1e106]
+                - row "sec-fetch-dest document" [ref=f1e107]:
+                  - cell "sec-fetch-dest" [ref=f1e108]
+                  - cell "document" [ref=f1e109]
+                - row "accept-encoding gzip, deflate, br, zstd" [ref=f1e110]:
+                  - cell "accept-encoding" [ref=f1e111]
+                  - cell "gzip, deflate, br, zstd" [ref=f1e112]
+                - row "x-forwarded-for ::1" [ref=f1e113]:
+                  - cell "x-forwarded-for" [ref=f1e114]
+                  - cell "::1" [ref=f1e115]
+                - row "x-forwarded-port 3000" [ref=f1e116]:
+                  - cell "x-forwarded-port" [ref=f1e117]
+                  - cell "3000" [ref=f1e118]
+                - row "x-forwarded-proto http" [ref=f1e119]:
+                  - cell "x-forwarded-proto" [ref=f1e120]
+                  - cell "http" [ref=f1e121]
+  - iframe [ref=e8]:
+    - generic [ref=f2e3]:
+      - heading "500" [level=1] [ref=f2e4]
+      - paragraph [ref=f2e5]: Cannot find module '/app/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs' imported from /Users/safwanyacob/Documents/Afed/nuxt-app/.nuxt/dist/server/server.mjs
+  - button "Toggle detailed error view Hide error page preview" [expanded] [ref=e9]:
+    - generic [ref=e10]: Toggle detailed error view
+    - button "Hide error page preview" [ref=e11] [cursor=pointer]: ×
+```
